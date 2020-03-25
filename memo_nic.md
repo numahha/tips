@@ -32,3 +32,10 @@ $ sudo modprobe e1000e
 ```
 
 `$ sudo make install`の時に、「catman モードで /var/cache/man/cat7/e1000e.7.gz に書き込みできません」と怒られるけど、無視して進めればOK。
+とりあえず、これでネットワークにつながることになる。
+
+再起動時にこのドライバを読み込むようにするために、以下を実行する（[参考2](https://forums.ubuntulinux.jp/viewtopic.php?pid=119749)）。
+```
+$ sudo update-initramfs -u
+```
+
