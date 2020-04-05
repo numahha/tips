@@ -4,7 +4,4 @@
 $ sudo apt-get install -y pppoe pppoeconf
 $ sudo pppoeconf
 ```
-Enter ID/PW. 
-
-After reboot,
-Setting >> Netwirk >> bluetooth >>> PPP(ppp0) ON >> Link negotiation (Automatic)
+Enter ID/PW sent from the provider. Reboot.
